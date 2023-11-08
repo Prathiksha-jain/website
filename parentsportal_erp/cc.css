@@ -1,0 +1,21 @@
+*{
+box-sizing: border-box;
+}
+
+.container{
+    display:inline-flex;
+    flex-direction:column;
+gap: 20px;
+padding: 20px;
+
+}
+.container>div{
+    min-width:100px;
+    flex: 2;
+background-color:#D6CC99;
+padding: 20px;
+
+}
+.container>div>h5{
+  
+}
